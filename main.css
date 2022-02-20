@@ -17,6 +17,10 @@ color:black;
         font-size: 1.25rem;
         margin: 0 100px;
     }
+    html{
+        background-color: lightgray;
+        padding: 0 50px;
+        }
 }
 input{
     font-size: 1.25rem;
@@ -35,6 +39,7 @@ input{
     padding: .5rem;
     border-radius: .5rem;
 }
+
 .card > .header{
     margin-bottom: .25rem;
 }
@@ -42,6 +47,25 @@ input{
     font-size: .8rem;
     color: rgb(29, 27, 27);
 }
+.card:hover{
+    color: rgb(221, 137, 137);
+    transform: scale(1.25);
+}
 .hide{
     display: none;
 }
+.idnum{
+    text-align: right;
+}
+.button {
+    text-align: center;
+    font-size: 27px;
+    background: var(--primary-bg);
+    color: var(--fontcolor);
+    border: 1 solid black;
+    padding: 15px 20px 15px 20px;
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
