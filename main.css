@@ -14,12 +14,12 @@ color:black;
 @media (min-width: 650px){
     input{
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.25rem;
         margin: 0 100px;
     }
 }
 input{
-    font-size: 1rem;
+    font-size: 1.25rem;
     text-align: center;
 }
 .user-cards{
