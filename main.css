@@ -1,14 +1,30 @@
+html{
+background-color: lightgray;
+}
 .search-wrapper{
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
     gap: .25rem;
+    padding: 5px;
+color:black;
+}
+@media (min-width: 650px){
+    input{
+        text-align: center;
+        font-size: 1rem;
+        margin: 0 100px;
+    }
 }
 input{
     font-size: 1rem;
+    text-align: center;
 }
 .user-cards{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
     gap: .25rem;
     margin-top: 1.25rem;
     font-size: large;
