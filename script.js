@@ -17,7 +17,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("userinfo.csv")
+fetch("userinfo.json")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
