@@ -18,7 +18,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 //const fileInput = document.querySelector('fileInput');
-fetch("MOCK_DATA.json")
+fetch("userinfo.json")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
